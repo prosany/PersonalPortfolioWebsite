@@ -6,44 +6,266 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.header {
+/* Common Css start */
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+section {
+    height: 450px;
+}
+/* Common Css end */
+
+/* Top Menu css start */
+.top-menu {
+    height: 55px;
+    line-height: 55px;
+    background: #ffffff;
+    box-shadow: 0 1px 10px #f6f6f6;
+}
+.top-menu ul {
+    list-style: none;
+    float: right;
+    margin: 0 5% 0 5%;
+}
+.top-menu ul li {
+    float: left;
+}
+.top-menu ul li a {
+    padding: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+/* Top Menu css end */
+
+
+
+/* Top Banner style start */
+.about-area {
     margin-left: 5%;
     margin-right: 5%;
 }
-.Main-menu {
-    background-color: #fff;
-    width: 100%;
-}
-.Main-menu ul {
-    list-style: none;
-    float: right;
-    display: flex;
-}
-.Main-menu ul li {
-    display: flex;
-    height: 55px;
-    line-height: 55px;
-}
-.Main-menu ul li a {
-    color: #131313;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 0 15px;
-    display: block;
-}
-.Main-menu ul li a:hover {
-    background: rgba(223, 223, 223, 0.2);
-}
-
-
-.con {
-    height: 400px;
-}
-
-.width-50 {
-    width: 45%;
+.width-40 {
+    width: 40%;
     float: left;
 }
-.width-50 img {
+.width-40 img {
+    width: 80%;
+}
+.margin-right {
+    margin-left: 60%;
+}
+.margin-top {
+    margin-top: 5%;
+}
+.color-h1 {
+    color: #4D42CC;
+}
+.color-orange {
+    color: #F86961;
+}
+.hire-me-button {
+    background: linear-gradient(180deg, #f86961, #e48582);
+    color: #fff;
+    padding: 10px 25px;
+    margin: 25px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+}
+/* Top Banner style end */
+
+
+
+/* About Area style start */
+.about-area {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.margin-left {
+    margin-left: 10%;
+}
+.download-cv-button {
+    background: linear-gradient(180deg, #f86961, #e48582);
+    color: #fff;
+    padding: 10px 25px;
+    margin: 25px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.download-cv-button i {
+    margin-right: 8px;
+    font-size: 13px;
+}
+/* About Area style end */
+
+
+
+/* Services Area style start */
+.services {
+    text-align: center;
+    margin: 10px 0;
+}
+.clear {
+    clear: both;
+}
+.box {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bonus {
+    font-size: 10px;
+    font-weight: 600;
+    color: #F56160;
+}
+.my-services {
+    width: 32%;
+    float: left;
+    box-shadow: -1px -1px 2px #f1f1f1, 1px 1px 1px #f1f1f1;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.my-services h3 {
+    color: #363958;
+}
+.my-services p {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px 0;
+}
+.my-services img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.service-margin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/* Services Area style end */
+
+
+
+/* Work Showcase style start */
+.work-showcase {
+    height: 500px;
+    background-color: #F8F9FC;
+    padding: 60px 0;
+    margin-top: 30px;
+    text-align: center;
+}
+.color-dark-blue {
+    color: #363958;
+}
+.work-sample {
+    text-align: left;
+    margin: 40px 0 0 10%;
+}
+.my-works {
+    width: 25%;
+    float: left;
+    background-color: #fff;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 5px 5px 11px #cccccc;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+.my-works img {
     width: 100%;
 }
+.my-work-title {
+    color: #363958;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 0;
+}
+.my-works p {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 0 10px 0;
+}
+/* Work Showcase style end */
+
+
+
+/* Work Inquiry style start */
+.work-inquiry {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work-inq-background {
+    background: url("../images/group-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 60%;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+.work-inq-text {
+    font-weight: 700;
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 8%;
+}
+.work-inq-button {
+    margin-left: 40%;
+}
+.work-inq-button a {
+    background: linear-gradient(180deg, #FC7662, #F56160);
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+}
+/* Work Inquiry style end */
+
+
+/* Stay Connected style start */
+.stay-connected {
+    text-align: center;
+    padding: 10px 0 60px 0;
+}
+.stay-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+.stay-email {
+    font-weight: 700;
+    font-size: 25px;
+    color: #363958;
+}
+.stay-connected ul li a {
+    text-decoration: none;
+}
+.stay-connected ul li a img {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px 0;
+}
+/* Stay Connected style end */
